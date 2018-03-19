@@ -198,9 +198,6 @@
                         </div>
                     </div>
                 </div>
-
-
-				
                 <!-- state end-->
             </div>
         </main>
@@ -216,73 +213,7 @@
     <!--init echarts-->
     <script type="text/javascript" src="js/init-echarts.js"></script>
     <!--init scripts-->
-   
-	<script>
-		    var dom = document.getElementById("attendance_day");
-    var myChart = echarts.init(dom);
+    <script src="js/scripts.min.js"></script>
 
-    var app = {};
-    option = null;
-    option = {
-        color: ['#eac459','#FF518A', '#34bfa3', '#ccc' ],
-
-        tooltip : {
-            trigger: 'axis'
-        },
-        legend: {
-            data:['Total','Day Passes','Full Time','Part Time']
-        },
-
-        calculable : true,
-        xAxis : [
-            {
-                type : 'category',
-                boundaryGap : false,
-                data : ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
-            }
-        ],
-        yAxis : [
-            {
-                type : 'value'
-            }
-        ],
-        series : [
-            {
-                name:'Total',
-                type:'line',
-                smooth:true,
-                itemStyle: {normal: {areaStyle: {type: 'default'}}},
-                data:[10, 12, 21, 54, 260, 830, 710]
-            },
-            {
-                name:'Day Passes',
-                type:'line',
-                smooth:true,
-                itemStyle: {normal: {areaStyle: {type: 'default'}}},
-                data:[30, 182, 434, 791, 390, 30, 10]
-            },
-            {
-                name:'Full Time',
-                type:'line',
-                smooth:true,
-                itemStyle: {normal: {areaStyle: {type: 'default'}}},
-                data:[1320, 1132, 601, 234, 120, 90, 20]
-            },
-			{
-				name:'Part Time',
-				type:'line',
-				smooth:true,
-				itemStyle: {normal: {areaStyle: {type: 'default'}}},
-				data:[130, 132, 601, 234, 120, 20, 70]
-		   }
-        ]
-    };
-
-
-    if (option && typeof option === "object") {
-        myChart.setOption(option, false);
-    }
-
-	</script>
 </body>
 </html>
