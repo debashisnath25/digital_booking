@@ -21,7 +21,7 @@
 					<span>Bookings</span>
 				</a>
 				<ul class="sub">
-					<li><a  href="javascript:void(0);">Booking Calendar</a></li>
+					<li><a  href="booking_calendar.php">Booking Calendar</a></li>
 					<li><a  href="javascript:void(0);">Resources</a></li>
 					<li><a  href="javascript:void(0);">Resource Category</a></li>
 					<li><a  href="javascript:void(0);">Calendar Settings</a></li>

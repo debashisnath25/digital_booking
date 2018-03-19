@@ -142,7 +142,7 @@
 											<div class=" col-sm-12">
 												<div class="card card-shadow mb-4">
 													<div class="card-body">
-														<table id="bs4-table" class="table table-bordered table-striped" cellspacing="0" width="100%">
+														<table id="bs4-table" class="table table-bordered table-striped table-responsive-lg" cellspacing="0" width="100%">
 															<thead>
 															<tr>
 																<th>Name</th>
@@ -158,28 +158,28 @@
 																<td>Jun 24</td>
 																<td>3 times</td>
 																<td>3 hours ago</td>
-																<td>+ 0.00<i class="fa fa-gbp"></i></td>
+																<td>+ 0.00 <i class="fa fa-gbp"></i></td>
 															</tr>
 															<tr>
 																<td>Tiger Nixon</td>
 																<td>Mar 20</td>
 																<td>7 times</td>
 																<td>2 hours ago</td>
-																<td>+ 130.00<i class="fa fa-gbp"></i></td>
+																<td>+ 130.00 <i class="fa fa-gbp"></i></td>
 															</tr>
 															<tr>
 																<td>Garrett Winters</td>
 																<td>Aug 2</td>
 																<td>1 times</td>
 																<td>3 hours ago</td>
-																<td>+ 0.00<i class="fa fa-gbp"></i></td>
+																<td>+ 0.00 <i class="fa fa-gbp"></i></td>
 															</tr>
 															<tr>
 																<td>Ashton Cox</td>
 																<td>Dec 21</td>
 																<td>3 times</td>
 																<td>6 hours ago</td>
-																<td>+ 200.00<i class="fa fa-gbp"></i></td>
+																<td>+ 200.00 <i class="fa fa-gbp"></i></td>
 															</tr>
 															</tbody>
 														</table>

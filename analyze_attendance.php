@@ -127,9 +127,6 @@
 										<div class="card-body">
 											<div class="row">
 												<div class="col-12">
-													<div class="float-right">
-														<i class="f30 opacity-3 icon-basket-loaded"></i>
-													</div>
 													<h3 class="text-success">8.0</h3>
 													<p class="card-subtitle text-muted fw-500">Full Time</p>
 												</div>
@@ -151,9 +148,6 @@
 										<div class="card-body">
 											<div class="row">
 												<div class="col-12">
-													<div class="float-right">
-														<i class="f30 opacity-3 icon-briefcase"></i>
-													</div>
 													<h3 class="text-primary">5.0</h3>
 													<p class="card-subtitle text-muted fw-500">Part Time</p>
 												</div>
@@ -175,9 +169,6 @@
 										<div class="card-body">
 											<div class="row">
 												<div class="col-12">
-													<div class="float-right">
-														<i class="f30 opacity-3 icon-pie-chart"></i>
-													</div>
 													<h3 class="text-danger">3.5</h3>
 													<p class="card-subtitle text-muted fw-500">Day Passes</p>
 												</div>
