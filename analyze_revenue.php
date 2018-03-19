@@ -51,7 +51,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <div id="revenue_source"></div>
+                                <div id="revenue_source" style="height:250px;"></div>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,6 @@
     <!--morris chart initialization-->
     <script src="js/morris-init.js"></script>
     <!--init scripts-->
-    <script src="js/scripts.min.js"></script>
 	<script>
 		Morris.Donut({
 		element: 'revenue_source',

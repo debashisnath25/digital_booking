@@ -2,7 +2,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-8">
-                    2018 © Diverse Admin by MHS
+                   2018 &copy; Developed by Clickrstop Software Solutions Private Limited
                 </div>
                 <div class="col-4">
                     <a href="#" class="float-right back-top">
