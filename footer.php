@@ -2,7 +2,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-8">
-                    2018 © Diverse Admin by MHS
+                   2018 &copy; Developed by Clickrstop Software Solutions Private Limited
                 </div>
                 <div class="col-4">
                     <a href="#" class="float-right back-top">
@@ -24,4 +24,8 @@
     <script src="js/lobicard.js"></script>
     <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
+<<<<<<< HEAD
 	<script src="js/scripts.min.js"></script>
+=======
+	 <script src="js/scripts.min.js"></script>
+>>>>>>> 541c27ebeeb26ab515ec684f6519dcfe8a3c1115

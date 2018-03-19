@@ -331,7 +331,6 @@
     <!--flot initialization-->
     <script src="js/flot-chart-init.js"></script>
     <!--init scripts-->
-    <script src="js/scripts.min.js"></script>
     <!--init echarts-->
     <script>
         $(function() {

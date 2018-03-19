@@ -38,7 +38,7 @@
 					<li><a  href="analyze_members.php">Members</a></li>
 					<li><a  href="analyze_revenue.php">Revenue</a></li>
 					<li><a  href="analyze_attendance.php">Attendance</a></li>
-					<li><a  href="javascript:void(0);">Bookings</a></li>
+					<li><a  href="analyze_bookings.php">Bookings</a></li>
 				</ul>
 			</li>
 

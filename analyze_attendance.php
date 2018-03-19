@@ -119,7 +119,7 @@
                                 <div class="card-title">
                                    Plan Utilization
                                 </div>
-								<span></span>
+								<span>Average Visits per Member and Plan</span>
                             </div>
                             <div class="card-body">
                                <div class="card-group mb-4">
@@ -135,11 +135,11 @@
 												</div>
 												<div class="col-12">
 													<div class="progress mt-3 mb-1" style="height: 6px;">
-														<div class="progress-bar bg-success" role="progressbar" style="width: 83%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
+														<div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
 													</div>
 													<div class="text-muted f12">
 														<span>Progress</span>
-														<span class="float-right">83%</span>
+														<span class="float-right">80%</span>
 													</div>
 												</div>
 											</div>
@@ -159,11 +159,11 @@
 												</div>
 												<div class="col-12">
 													<div class="progress mt-3 mb-1" style="height: 6px;">
-														<div class="progress-bar bg-primary" role="progressbar" style="width: 63%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
+														<div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
 													</div>
 													<div class="text-muted f12">
 														<span>Progress</span>
-														<span class="float-right">63%</span>
+														<span class="float-right">50%</span>
 													</div>
 												</div>
 											</div>
@@ -183,11 +183,11 @@
 												</div>
 												<div class="col-12">
 													<div class="progress mt-3 mb-1" style="height: 6px;">
-														<div class="progress-bar bg-danger" role="progressbar" style="width: 77%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
+														<div class="progress-bar bg-danger" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> </div>
 													</div>
 													<div class="text-muted f12">
 														<span>Progress</span>
-														<span class="float-right">77%</span>
+														<span class="float-right">35%</span>
 													</div>
 												</div>
 											</div>
@@ -216,7 +216,7 @@
     <!--init echarts-->
     <script type="text/javascript" src="js/init-echarts.js"></script>
     <!--init scripts-->
-    <script src="js/scripts.min.js"></script>
+   
 	<script>
 		    var dom = document.getElementById("attendance_day");
     var myChart = echarts.init(dom);
