@@ -8,7 +8,7 @@
 				</a>
 				<ul class="sub">
 					<li class="active"><a  href="dashboard.php">Dashboard</a></li>
-					<li><a  href="javascript:void(0);">Members</a></li>
+					<li><a  href="member_list.php">Members</a></li>
 					<li><a  href="javascript:void(0);">Invoices</a></li>
 					<li><a  href="javascript:void(0);">Help Desk</a></li>
 					<li><a  href="javascript:void(0);">Messages</a></li>
