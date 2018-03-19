@@ -44,7 +44,7 @@
                 <!--state widget start-->
                 <div class="row">
 
-                   <div class="card col-md-12">
+                   <div class="card mb-4 col-md-12">
 					 <div class="card-header">
 						<div class="card-title">Upstairs meeting room</div>
 						</div>
@@ -93,7 +93,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card col-md-12">
+					<div class="card mb-4 col-md-12">
 					 <div class="card-header">
 						<div class="card-title">Downstairs meeting room</div>
 						</div>
@@ -152,7 +152,6 @@
 	
     <!--===========footer start===========-->
 	<?php include("footer.php");?>
-	<!--echarts-->
     <!--easy pie chart-->
     <script src="js/jquery.easy-pie-chart.js"></script>
     <script src="js/easy-pie-chart-init.js"></script>
