@@ -27,11 +27,6 @@
     <!--custom css-->
     <link href="css/main.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="assets/vendor/html5shiv.js"></script>
-    <script src="assets/vendor/respond.min.js"></script>
-    <![endif]-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112914598-1"></script>
     <script>
