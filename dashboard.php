@@ -26,256 +26,147 @@
             <div class="container">
                 <!--page title start-->
                 <div class="page-title pl-0">
-                    <h4 class="mb-0"> Dashboard 4
-                        <small>start your new page</small>
+                    <h4 class="mb-0"> Dashboard
                     </h4>
-                    <ol class="breadcrumb mb-0 pl-0 pt-1 pb-0">
-                        <li class="breadcrumb-item"><a href="#" class="default-color">Home</a></li>
-                        <li class="breadcrumb-item active">Layout Box Container</li>
-                    </ol>
                 </div>
                 <!--page title end-->
 
                 <!--state widget start-->
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-3">
-                                        <span class="bg-primary rounded-circle text-center wb-icon-box">
-                                            <i class="icon-people text-light f24"></i>
-                                        </span>
-                                    </div>
-                                    <div class="col-9">
-                                        <h6 class="mt-1 mb-0">New Users</h6>
-                                        <p class="f12 mb-0">32 New Users</p>
-                                    </div>
-                                </div>
+                    <div class="col-xl-3 col-sm-6 mb-4" style="text-align:center;">
+                        <div class="card card-shadow">
+                            <div class="card-body ">
+                                <h6 class="mb-0 mt-3">2 MEMBERS TOTAL</h6>
+								<h6 class="mb-0 mt-1"  style="color:#1AABA8;">+2</h6>
+								<p class="f18 mb-0">Last 7 days</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card mb-4">
+                    <div class="col-xl-3 col-sm-6 mb-4" style="text-align:center;">
+                        <div class="card card-shadow">
                             <div class="card-body ">
-                                <div class="row">
-                                    <div class="col-3">
-                                        <span class="bg-warning rounded-circle text-center wb-icon-box">
-                                            <i class="icon-basket-loaded text-light f24"></i>
-                                        </span>
-                                    </div>
-                                    <div class="col-9">
-                                        <h6 class="mt-1 mb-0">Order Placed</h6>
-                                        <p class="f12 mb-0">123 New Order Placed</p>
-                                    </div>
-                                </div>
+                                <h6 class="mb-0 mt-3">1 UNPAID INVOICE</h6>
+								<h6 class="mb-0 mt-1"  style="color:#E60130;">$600</h6>
+								<p class="f18 mb-0">Last 4 weeks</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card mb-4">
+					<div class="col-xl-3 col-sm-6 mb-4" style="text-align:center;">
+                        <div class="card card-shadow">
                             <div class="card-body ">
-                                <div class="row">
-                                    <div class="col-3">
-                                        <span class="bg-danger rounded-circle text-center wb-icon-box">
-                                            <i class="icon-badge text-light f24"></i>
-                                        </span>
-                                    </div>
-                                    <div class="col-9">
-                                        <h6 class="mt-1 mb-0">Monthly Profits</h6>
-                                        <p class="f12 mb-0">$9887 This Month Profit
-                                            <span class="float-right text-success"> </span>
-                                        </p>
-                                    </div>
-                                </div>
+                                <h6 class="mb-0 mt-3">BOOKING REVENUE</h6>
+								<h6 class="mb-0 mt-1" >$0</h6>
+								<p class="f18 mb-0">Last 4 weeks</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 mb-4" style="text-align:center;">
+                        <div class="card card-shadow">
+                            <div class="card-body ">
+                                <h6 class="mb-0 mt-3">0 ISSUES</h6>
+								<h6 class="mb-0 mt-1" >0</h6>
+								<p class="f18 mb-0">Last 4 weeks</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--state widget end-->
 
-                <!-- state start-->
-                <div class="row">
-                    <div class=" col-md-6">
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <div class="card-title">
-                                    Rainfall and Evaporation
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div id="rainfall" style="height: 350px"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col-md-6">
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <div class="card-title">
-                                    Doughnut Pie Chart
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div id="doughnut" style="height: 350px"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- state end-->
-
                 <div class="row">
                     <!--Report widget start-->
-                    <div class="col-xl-7">
-                        <div class="card mb-4">
+                    <div class="col-xl-8">
+                        <div class="card card-shadow mb-4">
                             <div class="card-header">
                                 <div class="card-title">
-                                    Page Visit
-                                    <div class="btn-group float-right task-list-action">
-                                        <div class="dropdown ">
-                                            <a href="#" class="btn btn-transparent default-color dropdown-hover p-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class=" icon-options"></i>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-right ">
-                                                <a class="dropdown-item" href="#"> <i class="fa fa-calendar-o text-info pr-2"></i> Daily</a>
-                                                <a class="dropdown-item" href="#"><i class="fa fa-calendar-check-o text-danger pr-2"></i> Weekly</a>
-                                                <a class="dropdown-item" href="#"><i class="fa fa-calculator text-warning pr-2"></i> Monthly</a>
+                                    ACTIVITY FEED
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="baseline baseline-border">
+                                    <div class="baseline-list">
+                                        <div class="baseline-info">
+                                            <div class="basline-icon float-left">
+                                                <i class="ti-face-smile f24 text-muted mr-3"></i>
                                             </div>
+                                            <div><a href="#" class="default-color"><strong>John Tasi</strong></a> was confirmed by Tnisha. </div>
+                                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="baseline-list baseline-border">
+                                        <div class="baseline-info">
+                                            <div class="basline-icon float-left">
+                                                <i class="ti-bell f24 text-muted mr-3"></i>
+                                            </div>
+                                            <div>John Tasi set up <a href="#" class="default-color"><strong>John Tasi</strong></a> to pay for Tnisha. </div>
+                                            <span class="text-muted">05:00 PM Sun, 02 Feb 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="baseline-list  baseline-border">
+                                        <div class="baseline-info">
+                                            <div class="basline-icon float-left">
+                                                <i class="ti-face-smile f24 text-muted mr-3"></i>
+                                            </div>
+                                            <div>New member <a href="#" class="default-color"><strong>Tnisha</strong></a>, plan: Drop-in added by John Tasi.</a></div>
+                                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="baseline-list  baseline-border">
+                                        <div class="baseline-info">
+                                            <div class="basline-icon float-left">
+                                                <i class=" ti-file f24 text-muted mr-3"></i>
+                                            </div>
+                                            <div>Created <a href="#" class="default-color"><strong>invoice 1</strong></a> (26,250.00 INR) for <a href="#" class="default-color"><strong>John Tasi</strong></a>.</div>
+                                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span> 
+
+                                        </div>
+                                    </div>
+                                    <div class="baseline-list  baseline-border">
+                                        <div class="baseline-info">
+                                            <div class="basline-icon float-left">
+                                                <i class="ti-face-smile f24 text-muted mr-3"></i>
+                                            </div>
+                                            <div><a href="#" class="default-color"><strong>John Tasi.</strong></a> was confirmed.</div>
+                                            <span class="text-muted">10:00 PM Sat, 10 Jan 2018</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="table-responsive">
-                                <table class="table table-vertical-middle">
-                                    <thead>
-                                    <tr>
-                                        <th class="border-0">Page</th>
-                                        <th class="border-0 text-right">Pageviews</th>
-                                        <th class="border-0 text-right">Page Value </th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>
-                                            /dashboard/home/
-                                        </td>
-                                        <td class="text-right">
-                                            2345
-                                        </td>
-                                        <td class="text-right">
-                                            $ 0.00
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            /dashboard/charts/nice_charts
-                                        </td>
-                                        <td class="text-right">
-                                            2345
-                                        </td>
-                                        <td class="text-right">
-                                            $ 0.00
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            /profile/edit/
-                                        </td>
-                                        <td class="text-right">
-                                            2345
-                                        </td>
-                                        <td class="text-right">
-                                            $ 0.00
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            /dashboard/datatables/responsive
-                                        </td>
-                                        <td class="text-right">
-                                            2345
-                                        </td>
-                                        <td class="text-right">
-                                            $ 0.00
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            /dashboard/charts/nice_charts
-                                        </td>
-                                        <td class="text-right">
-                                            2345
-                                        </td>
-                                        <td class="text-right">
-                                            $ 0.00
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            /profile/edit/
-                                        </td>
-                                        <td class="text-right">
-                                            2345
-                                        </td>
-                                        <td class="text-right">
-                                            $ 0.00
-                                        </td>
-                                    </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
+							<!-- <p class="card-text f18" style="text-align:center;margin-top:-10px;">more</p> -->
                         </div>
                     </div>
                     <!--Report widget end-->
 
                     <!--weather widget start-->
-                    <div class="col-xl-5">
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-5 d-flex justify-content-center">
-                                        <div class="align-self-center ">
-                                            <i class="wi wi-day-sleet f60 text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col p-3">
-                                        <small>SUN, Jan 2018 10:21  </small>
-                                        <h6>Most Cloudy</h6>
-                                        <h1 class="mt-3 mb-3 p-2 border border-right-0 border-left-0 text-primary"> 34<sup>o c</sup></h1>
-                                        <span>Wind: SE 15 KM/H</span>
-                                        <p>Huminity: 54%</p>
-                                    </div>
+                    <div class="col-xl-4">
+                        <div class="card card-shadow mb-4">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    Bookings
                                 </div>
                             </div>
-                            <div class="card-footer bg-white text-center p-4">
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="f12">MON</p>
-                                        <i class="wi wi-day-cloudy f30"></i>
-                                        <p class="mb-0 mt-2">18<sup>o c</sup></p>
+                            <div class="card-body">
+                                <div class="media mb-4">
+                                    <img class="align-self-center mr-3 rounded-circle" src="images/n1.png" alt=" " style="width: 50px; height: 50px;">
+                                    <div class="media-body">
+                                        <p class="mb-0"><strong class="">Today, 3:00pm-4:00pm</strong></p>
+                                        <span>Meeting Room  Auckland  Booked By : John Tasi</span>
                                     </div>
-                                    <div class="col">
-                                        <p class="f12">TUE</p>
-                                        <i class="wi  wi wi-day-rain-mix f30"></i>
-                                        <p class="mb-0 mt-2">13<sup>o c</sup></p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="f12">WED</p>
-                                        <i class="wi  wi wi-day-cloudy-windy f30"></i>
-                                        <p class="mb-0 mt-2">29<sup>o c</sup></p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="f12">THU</p>
-                                        <i class="wi  wi wi-day-sprinkle f30"></i>
-                                        <p class="mb-0 mt-2">32<sup>o c</sup></p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="f12">FRI</p>
-                                        <i class="wi  wi wi-day-thunderstorm f30"></i>
-                                        <p class="mb-0 mt-2">09<sup>o c</sup></p>
-                                    </div>
-
                                 </div>
+                                <div class="media mb-4">
+                                    <img class="align-self-center mr-3 rounded-circle" src="images/n1.png" alt=" " style="width: 50px; height: 50px;">
+                                    <div class="media-body">
+                                        <p class="mb-0"><strong class="">Today, 3:00pm-4:00pm</strong></p>
+                                        <span>Meeting Room  Auckland  Booked By : John Tasi</span>
+                                    </div>
+                                </div>
+                                <div class="media mb-4">
+                                    <img class="align-self-center mr-3 rounded-circle" src="images/n1.png" alt=" " style="width: 50px; height: 50px;">
+                                    <div class="media-body">
+                                        <p class="mb-0"><strong class="">Today, 3:00pm-4:00pm</strong></p>
+                                        <span>Meeting Room  Auckland  Booked By : John Tasi</span>
+                                    </div>
+                                </div>
+								<a class="card-text f18" style="text-align:center;" href="javascript:void(0);">Booking Calender <i class=" ti-angle-double-right" style="font-size: 12px;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -588,13 +479,6 @@
 
     <!--init scripts-->
     <script src="js/scripts.min.js"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112914598-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-112914598-1');
-    </script>
+	
 </body>
 </html>
