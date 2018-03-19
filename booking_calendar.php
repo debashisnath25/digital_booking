@@ -48,7 +48,7 @@
                                 <div class="card-title">
 								  <div class="row">
 									<div class="col-md-2">
-										<a class="btn btn-outline-primary" href="#" role="button">My Bookings</a>
+										<a class="btn btn-outline-primary" href="booking_my_bookings.php" role="button">My Bookings</a>
 									</div>
 									<div class="col-md-2">
 										<button type="button" class="btn btn-info" data-toggle="modal" data-target="#new_booking" data-whatever="@mdo"><i class="fa fa-plus"></i> New Bookings</button>
@@ -188,7 +188,6 @@
 			</div>
 		</div>
 	</div>
-            <!-- <input type="text" class="form-control date-picker-input" value="Select Date"> -->                
     <!--===========footer start===========-->
 	<?php include("footer.php");?>
 	<script src='js/moment.min.js'></script>
