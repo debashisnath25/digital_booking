@@ -35,9 +35,9 @@
 					<span>Analyze</span>
 				</a>
 				<ul class="sub">
-					<li><a  href="javascript:void(0);">Members</a></li>
-					<li><a  href="javascript:void(0);">Revenue</a></li>
-					<li><a  href="javascript:void(0);">Attendance</a></li>
+					<li><a  href="analyze_members.php">Members</a></li>
+					<li><a  href="analyze_revenue.php">Revenue</a></li>
+					<li><a  href="analyze_attendance.php">Attendance</a></li>
 					<li><a  href="javascript:void(0);">Bookings</a></li>
 				</ul>
 			</li>
