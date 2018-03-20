@@ -41,7 +41,7 @@
 								<div class="card-title" style="float:right;font-size:15px;color:#207ABB;font-weight:normal;">
                                     <i class="fa fa-download" aria-hidden="true"></i> CSV&nbsp;&nbsp;&nbsp;
 									<a href="send_message.php"><i class="fa fa-location-arrow" aria-hidden="true"></i> Send Email to List(2)</a>&nbsp;&nbsp;&nbsp;
-									<button type="button" class="btn btn-info"><i class="fa fa-plus" aria-hidden="true"></i> Add Member</button>
+									<a href="add_member.php" class="btn btn-info"><i class="fa fa-plus" aria-hidden="true"></i> Add Member</a>
                                 </div>
                             </div>
                             <div class="card-body">
