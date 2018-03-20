@@ -3,7 +3,7 @@
 	<nav class="sidebar-menu">
 		<ul id="nav-accordion">
 			<li class="sub-menu">
-				<a href="javascript:;" class="<?php if($page_name == 'dashboard.php' || || $page_name == 'member_list.php' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);') { ?> active<?php } ?>">
+				<a href="javascript:;" class="<?php if($page_name == 'dashboard.php' || $page_name == 'member_list.php' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);') { ?> active<?php } ?>">
 					<i class=" ti-home"></i>
 					<span>Manage</span>
 				</a>
@@ -44,14 +44,14 @@
 			</li>
 
 			<li class="sub-menu">
-				<a href="javascript:;" class="<?php if($page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);') { ?> active<?php } ?>">
+				<a href="javascript:;" class="<?php if($page_name == 'basic.php' || $page_name == 'administrators.php' || $page_name == 'plans.php' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);') { ?> active<?php } ?>">
 					<i class="fa fa-cogs"></i>
 					<span>Setup</span>
 				</a>
 				<ul class="sub">
-					<li class="<?php if($page_name == 'javascript:void(0);') { ?> active<?php } ?>"><a  href="javascript:void(0);">Basic</a></li>
-					<li class="<?php if($page_name == 'javascript:void(0);') { ?> active<?php } ?>"><a  href="javascript:void(0);">Administrators</a></li>
-					<li class="<?php if($page_name == 'javascript:void(0);') { ?> active<?php } ?>"><a  href="javascript:void(0);">Plans</a></li>
+					<li class="<?php if($page_name == 'basic.php') { ?> active<?php } ?>"><a  href="basic.php;">Basic</a></li>
+					<li class="<?php if($page_name == 'administrators.php') { ?> active<?php } ?>"><a  href="administrators.php">Administrators</a></li>
+					<li class="<?php if($page_name == 'plans.php') { ?> active<?php } ?>"><a  href="plans.php">Plans</a></li>
 					<li class="<?php if($page_name == 'javascript:void(0);') { ?> active<?php } ?>"><a  href="javascript:void(0);">Invoice Settings</a></li>
 					<li class="<?php if($page_name == 'javascript:void(0);') { ?> active<?php } ?>"><a  href="javascript:void(0);">Automated Payment</a></li>
 					<li class="<?php if($page_name == 'javascript:void(0);') { ?> active<?php } ?>"><a  href="javascript:void(0);">Wifi Integration</a></li>
