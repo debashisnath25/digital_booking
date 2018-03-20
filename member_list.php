@@ -24,11 +24,9 @@
 
         <!--main contents start-->
         <main class="main-content">
-            <div class="container">
+            <div class="container-fluid">
                 <!--page title start-->
                 <div class="page-title pl-0">
-                    <h4 class="mb-0"> 
-                    </h4>
                 </div>
 
                <div class="row">

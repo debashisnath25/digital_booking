@@ -3,14 +3,14 @@
 	<nav class="sidebar-menu">
 		<ul id="nav-accordion">
 			<li class="sub-menu">
-				<a href="javascript:;" class="<?php if($page_name == 'dashboard.php' || $page_name == 'member_list.php' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);') { ?> active<?php } ?>">
+				<a href="javascript:;" class="<?php if($page_name == 'dashboard.php' || $page_name == 'member_list.php' || $page_name == 'invoice.php' || $page_name == 'javascript:void(0);' || $page_name == 'javascript:void(0);') { ?> active<?php } ?>">
 					<i class=" ti-home"></i>
 					<span>Manage</span>
 				</a>
 				<ul class="sub">
 					<li class="<?php if($page_name == 'dashboard.php') { ?> active<?php } ?>"><a  href="dashboard.php">Dashboard</a></li>
 					<li class="<?php if($page_name == 'member_list.php') { ?> active<?php } ?>"><a  href="member_list.php">Members</a></li>
-					<li class="<?php if($page_name == 'javascript:void(0);') { ?> active<?php } ?>"><a  href="javascript:void(0);">Invoices</a></li>
+					<li class="<?php if($page_name == 'invoice.php') { ?> active<?php } ?>"><a  href="invoice.php">Invoices</a></li>
 					<li class="<?php if($page_name == 'javascript:void(0);') { ?> active<?php } ?>"><a  href="javascript:void(0);">Help Desk</a></li>
 					<li class="<?php if($page_name == 'javascript:void(0);') { ?> active<?php } ?>"><a  href="javascript:void(0);">Messages</a></li>
 				</ul>
