@@ -8,6 +8,8 @@
     <meta name="author" content="MHS">
 	<title>Dashboard | Digital Booking and Management</title>
     <?php include("metalinks.php");?>
+	<link href="css/summernote-bs4.css" rel="stylesheet">
+
 </head>
 <body class="app header-fixed left-sidebar-fixed right-sidebar-fixed right-sidebar-overlay right-sidebar-hidden">
 
@@ -42,21 +44,22 @@
                             <div class="card-body">
                                 <form>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">To</label>&nbsp;&nbsp;<code>Tiger Nixon <i class="fa fa-times" aria-hidden="true"></i></code>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        <label for="exampleInputEmail1">To</label>&nbsp;&nbsp;<code><a href="javascript:void(0);">Tiger Nixon</a> <i class="fa fa-times" aria-hidden="true"></i></code>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                    </div>
-                                    <div class="form-check">
+									<div class="form-check">
                                         <label class="form-check-label">
                                             <input type="checkbox" class="form-check-input">
-                                            Check me out
+                                            Send a copy to all space admins
                                         </label>
                                     </div>
-                                    <button type="submit" class="btn btn-info">Submit</button>
+									 <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group">
+										<div id="summernote"></div>
+										<small id="emailHelp" class="form-text text-muted">To add formatting, select some text and use the buttons that appear above it</small>
+									</div>
+                                    <button type="submit" class="btn btn-info">Send Email</button>
                                 </form>
                             </div>
                         </div>
@@ -81,7 +84,17 @@
    include("footer.php");
    ?>
 
-   
+    <script src="js/summernote-bs4.min.js"></script>
+	<script>
+        $(document).ready(function() {
+            $('#summernote').summernote({
+                height: 100,                 // set editor height
+                minHeight: null,             // set minimum height of editor
+                maxHeight: null,             // set maximum height of editor
+                focus: true                  // set focus to editable area after initializing summernote
+            });
+        });
+    </script>
    
 
 

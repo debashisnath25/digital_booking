@@ -24,8 +24,4 @@
     <script src="js/lobicard.js"></script>
     <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
-<<<<<<< HEAD
 	<script src="js/scripts.min.js"></script>
-=======
-	 <script src="js/scripts.min.js"></script>
->>>>>>> 541c27ebeeb26ab515ec684f6519dcfe8a3c1115
