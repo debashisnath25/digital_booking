@@ -23,7 +23,7 @@
         <!--left sidebar end-->
         <!--main contents start-->
         <main class="main-content">
-            <div class="container">
+            <div class="container-fluid">
                 <!--page title start-->
                 <div class="page-title pl-0">
 				 <div class="row">
