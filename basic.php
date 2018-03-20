@@ -43,7 +43,7 @@
 							 <div class="card card-shadow mb-4">
                           
                             <div class="card-body">
-                                <ul class="nav nav-tabs nav-fill mb-4" role="tablist">
+                                <ul class="nav nav-pills nav-pills-info mb-4" role="tablist">
                                     <li class="nav-item">
                                         <a class="nav-link active" data-toggle="tab" href="#tab-j_1"> <i class="fa fa-home pr-2"></i>BASIC SETTINGS</a>
                                     </li>

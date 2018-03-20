@@ -2,8 +2,8 @@
 
         <!--brand start-->
         <div class="navbar-brand navbar-brand-dark">
-            <a class="" href="index.html">
-                <img src="images/logo.png" srcset="images/logo@2x.png 2x" alt="">
+            <a class="" href="dashboard.php" style="color:#fff;">
+                <label>Digital Booking</label>
             </a>
         </div>
         <!--brand end-->

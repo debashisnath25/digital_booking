@@ -44,7 +44,7 @@
 							 <div class="card card-shadow mb-4">
                           
                             <div class="card-body">
-                                <ul class="nav nav-tabs nav-fill mb-4" role="tablist">
+                                <ul class="nav nav-pills nav-pills-info mb-4" role="tablist">
                                     <li class="nav-item">
                                         <a class="nav-link active" data-toggle="tab" href="#tab-j_1"> <i class="fa fa-home pr-2"></i>BASIC SETTINGS</a>
                                     </li>
@@ -356,7 +356,7 @@
 										<div class="form-group">
                                         <label for="exampleInputEmail1">Email address</label>
                                         <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
-                                        <small id="emailHelp" class="form-text text-muted">Set to zero if you don’t charge taxes. For multiple tax rates contact us. Support</small>
+                                        <small id="emailHelp" class="form-text text-muted">Set to zero if you don&acute;t charge taxes. For multiple tax rates contact us. Support</small>
                                     </div>
 											
                                
